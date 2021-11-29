@@ -1,0 +1,137 @@
+*{
+     margin: 0 auto;
+     /* background: red; */
+     
+}
+
+.login{
+     text-align: end;
+     font-family: monospace;
+     margin-top: 1em;
+     border-radius: 10px;
+     font-size: 1em;
+     
+}
+
+.cerrar{
+     border-radius: 20px;
+     background: white;
+     color: red;
+     font-size: 1em;
+     font-style: oblique;
+
+}
+
+header{
+     text-align: center;
+     font-family: fantasy;
+     text-shadow: 7px 5px 5px cyan;
+     font-size: 3em;
+}
+
+.texto{
+     
+    
+     align-items: center;
+     text-align: center;
+     
+     /* background: coral; */
+     font-size: 10%;
+     border-radius: 10px;
+     padding: 5%;
+     float: calc(45%-45%);
+
+     
+     
+    
+     
+}
+
+button{
+     background: white;
+}
+
+input{
+     background: white;
+}
+
+.h4{
+     /* color: darkblue; */
+     text-align: center;
+     font-size: 2em;
+}
+
+.carnicero{
+     /* background: darkred; */
+     text-align: center;
+     align-items: center;
+}
+
+body{
+     background:url(https://image.shutterstock.com/image-vector/vector-illustration-meat-260nw-133260383.jpg);
+     background-position: center;
+     background-size: 100%;
+
+}
+
+.centro{
+     text-align: center;
+     align-items: center;
+}
+
+.turno{
+     font-size: 2em;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: white;
+     text-align: center;
+     background: cornflowerblue;
+     /* float: left; */
+     
+     border-radius: 10px;
+}
+
+.valor{
+     color: white; 
+     background: cornflowerblue;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     border-radius: 10px;
+}
+
+.centro{
+     text-align: center;
+     text-align: center;
+     top: 2em;
+     border-radius: 10px;
+     
+}
+
+
+.siguientetturno{
+     margin-top: 2em;
+     border-radius: 10px;
+     font-size: 2em;
+     color: aqua;
+     background: coral;
+}
+
+.v{
+     text-align: end;
+     background: none;
+     color:tomato;
+     font-size: 1em;
+}
+
+
+.total{
+
+     color: green;
+     background: none;
+     align-items: center;
+     font-size: 3em;
+}
+
+@media (min-width:25%) {
+     body{
+          background-size: 25%;
+     }
+}
